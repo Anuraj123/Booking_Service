@@ -13,3 +13,5 @@ class AppError extends Error{
           (this.statusCodes = statusCodes);
       }
 }
+
+module.exports=AppError
